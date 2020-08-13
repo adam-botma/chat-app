@@ -2,4 +2,11 @@ body{
   --slack-color: #3f0f3f;
   --slack-color-light: #49274b;
   --slack-hover: #340e36;
+  overflow: hidden;
+}
+
+
+.app-body{
+  display: flex;
+  height: 100vh;
 }
