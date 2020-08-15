@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import StarBorderOutlinedIcon from '@material-ui/icons/StarBorderOutlined';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import Message from './Message';
+import ChatInput from './ChatInput';
 
 
 function Chat (){
@@ -41,10 +42,16 @@ function Chat (){
         </div>
       </div>
       <div className='class-messages'>
-        {roomMessages.map(message => (
-          <Message message= {message.message} timestamp ={message.timestamp} user={message.user} userImage={message.userImage} />
+        {roomMessages.map(({ message, timestamp, userImage, user }) => (
+          <Message
+            message={message}
+            timestamp={timestamp}
+            userImage={userImage}
+            user={user}
+          />
         ))}
       </div>
+      <ChatInput channelName={roomDetails?.name} channelId={roomId}/>
     </div>
 
   );

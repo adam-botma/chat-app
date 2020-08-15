@@ -14,9 +14,11 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 import db from './firebase';
+import { useStateValue } from './StateProvider';
 
 
 function Sidebar() {
+  const [{ user }] = useStateValue();
 
   const [channels, setChannels] = useState([]);
 
@@ -39,7 +41,7 @@ function Sidebar() {
           <h2>Name</h2>
           <h3>
             <FiberManualRecodIcon />
-            AdzBot
+            {user?.displayName}
       </h3>
         </div>
         <CreateIcon />
