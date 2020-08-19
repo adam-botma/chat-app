@@ -1,2 +1,2 @@
 # chat-app 
-need to restyle and make mobile friendly - working on phone first 
+small chat app similar to slack just for practice - built with React and Firebase 
