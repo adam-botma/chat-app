@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.064c1e15.chunk.css",
+    "main.js": "/static/js/main.aa28cf44.chunk.js",
+    "main.js.map": "/static/js/main.aa28cf44.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4857cacc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4857cacc.js.map",
+    "static/js/2.0a2bece5.chunk.js": "/static/js/2.0a2bece5.chunk.js",
+    "static/js/2.0a2bece5.chunk.js.map": "/static/js/2.0a2bece5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dfb09a7531ce044ec9e9b7e9ace4a8aa.js": "/precache-manifest.dfb09a7531ce044ec9e9b7e9ace4a8aa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.064c1e15.chunk.css.map": "/static/css/main.064c1e15.chunk.css.map",
+    "static/js/2.0a2bece5.chunk.js.LICENSE.txt": "/static/js/2.0a2bece5.chunk.js.LICENSE.txt",
+    "static/media/class-notes-logo-2.png": "/static/media/class-notes-logo-2.fffe2ed2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4857cacc.js",
+    "static/js/2.0a2bece5.chunk.js",
+    "static/css/main.064c1e15.chunk.css",
+    "static/js/main.aa28cf44.chunk.js"
+  ]
+}
